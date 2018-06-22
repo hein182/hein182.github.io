@@ -1,0 +1,114 @@
+body {
+  background-size: auto;
+  background-image: url("https://wallpapersultra.net/wp-content/uploads/Cool-Background-41.jpg");
+  background-color: #cccccc;
+  background-repeat: repeat;
+}
+
+.title {
+  opacity: 0.9;
+  background-color: rgba(51, 153, 255, 0.99);
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-top: 2px;
+}
+
+.title:hover {
+  background-color: rgba(51, 153, 255, 0.5);
+}
+
+#title{
+  color: yellow;
+  font-family: arial;
+}
+
+#channel {
+  height: 36px;
+  width: 36px;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+nav {
+  background-color: rgba(51, 153, 255, 0.99);
+
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  opacity: 0.9;
+}
+
+.home {
+  text-decoration: none;
+    font-family: arial;
+  font-size: 20px;
+}
+
+.about {
+  text-decoration: none;
+  font-family: arial;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.coolthings {
+  text-decoration: none;
+  font-family: arial;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.home:hover {
+  text-decoration: none;
+  font-family: arial;
+  font-size: 20px;
+  background-color: yellow;
+}
+
+.about:hover {
+  text-decoration: none;
+  font-family: arial;
+  margin-left: 10px;
+  font-size: 20px;
+  background-color: yellow;
+}
+
+.coolthings:hover {
+  text-decoration: none;
+  font-family: arial;
+  margin-left: 10px;
+  font-size: 20px;
+  background-color: yellow;
+}
+
+.title {
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+article {
+
+}
+
+footer {
+
+}
+
+#demo {
+
+  font-size: 18px;
+}
