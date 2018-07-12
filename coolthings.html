@@ -5,6 +5,14 @@
     <title>Hein182| coolthings</title>
     <link rel="stylesheet" href="stylesheet.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script>
+          $(document).ready(function () {
+              $(".dropdown").hide();
+              $(".coolthings").click(function () {
+                  $(".dropdown").toggle();
+              });
+          });
+      </script>
   </head>
   <body>
       <audio id="my_audio" src="zsss.mp3" loop="loop"></audio>
@@ -27,13 +35,6 @@
 
     </footer>
     <script rel="text/javascript" src="script2.js"></script>
-      <script>
-          $(document).ready(function () {
-              $('.dropdown').hide();
-              $('.coolthings').click(function () {
-                  $('.dropdown').toggle();
-              });
-          });
-      </script>
+
   </body>
 </html>
