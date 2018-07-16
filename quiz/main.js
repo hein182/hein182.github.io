@@ -67,7 +67,7 @@ $(document).ready(function() {
       alert(count+' question(s) right');
       $("#finalscore").html("final score: " + endingscore);
     });
-    $(".yes").click(function () {
+    $(".yes").click(function() {
         retake++;
     });
 });
