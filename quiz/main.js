@@ -11,8 +11,8 @@ $(document).ready(function() {
     var count2 = 0
     var rando = 21;
     var counttotal = 2;
-    var retake = 0
-    var scorenumber=["you didnt do shit dumb rass","good rob 100% A+", "u need to learn 0% F-", "u suck 50% F-"]
+    var retake = 0;
+    var scorenumber = ["you didnt do shit dumb rass", "good rob 100% A+", "u need to learn 0% F-", "u suck 50% F-"];
     if(retake == 1){
       $(sumtingwong).click(function () {
           alert("u suck maddafakka")
