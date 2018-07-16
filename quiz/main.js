@@ -1,0 +1,64 @@
+$(document).ready(function() {
+  var audioElement = document.createElement('audio');
+    audioElement.setAttribute('src', 'speech.mp3');
+  var sumtingwong = $('input[value=sumting]');
+  var sumtingrwite = $('input[name=q1][value=sumtingright]');
+  var sumtingrwite2 = $('input[name=q2][value=sumtingright]');
+  var writeanswer = $('input[name=q1][value=sumtingright]:checked').length
+  var negativecount=0;
+  var count=2;
+  var count2=0
+  var counttotal=2;
+  var scorenumber=["you didnt do shit dumb rass","good rob 100% A+", "u need to learn 0% F-", "u suck 50% F-"]
+  var x = $("#auddd")
+/*    $(sumtingwong).click(function(){
+      alert("u suck maddafakka")
+      negativecount--;
+      if(negativecount<-1){
+        alert("u dumb rass")
+      }
+    });
+    $(sumtingrwite).click(function(){
+      if(count == 0){
+      alert("u very smart");
+      count++;
+    }
+    });
+    $(sumtingrwite2).click(function(){
+      if(count2 == 0){
+      alert("good rob");
+      count2++;
+    }
+    });
+*/
+    $(".sumtingwong").click(function(){
+      audioElement.play();
+    });
+    $("button").click(function(){
+      var endingscore=0;
+      if($('input[name=q1][value=sumtingright]:checked').length > 0){
+      }
+      if($('input[name=q2][value=sumtingright]:checked').length > 0){
+      }
+      if($('input[name=q1][value=sumting]:checked').length > 0){
+        count--;
+      }
+      if($('input[name=q2][value=sumting]:checked').length > 0){
+        count--;
+      }
+      if(count==0){
+        endingscore=scorenumber[0];
+      }
+      if(count==2){
+        endingscore=scorenumber[1];
+      }
+      if(count==1){
+        endingscore=scorenumber[3];
+      }
+      if(count<=0){
+        endingscore=scorenumber[2];
+      }
+      alert(count+count2+negativecount+' question(s) right');
+      $("#finalscore").html("final score: " + endingscore);
+    });
+});

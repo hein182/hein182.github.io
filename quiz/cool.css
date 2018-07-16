@@ -1,0 +1,17 @@
+label{
+
+  font-style: italic;
+  font-size: 120%;
+
+}
+
+.bdy{
+  text-align: left;
+  font-size: 120%;
+}
+input{
+  text-align: left;
+}
+embed{
+  display: none;
+}
