@@ -7,7 +7,7 @@ $(document).ready(function() {
   var sumtingrwite = $('input[name=q1][value=sumtingright]');
   var sumtingrwite2 = $('input[name=q2][value=sumtingright]');
 //  var negativecount=0;
-//  var count=2;
+  var count=2;
 //  var count2 = 0
   var rando = 21;
 //  var counttotal=2;
