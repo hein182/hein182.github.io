@@ -62,7 +62,7 @@ $(document).ready(function() {
       if(count<=0){
         endingscore=scorenumber[2];
       }
-      alert(count+count2+negativecount+' question(s) right');
+      alert(count+' question(s) right');
       $("#finalscore").html("final score: " + endingscore);
     });
 });
