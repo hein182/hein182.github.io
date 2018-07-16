@@ -70,4 +70,5 @@ $(document).ready(function() {
     $(".yes").click(function() {
         retake++;
     });
+    $("#retakescore").html(retake);
 });
