@@ -51,10 +51,10 @@ $(document).ready(function() {
       if($('input[name=q2][value=sumting]:checked').length > 0){
         count--;
       }
-      if ($('input[name=q2]:checked').length = 0) {
+      if ($('input[name=q2][value=sumtingright]:checked').length = 0) {
           count=0;
       }
-      if ($('input[name=q1]:checked').length = 0) {
+      if ($('input[name=q1][value=sumting]:checked').length = 0) {
           count=0;
       }
       if(count==0){
