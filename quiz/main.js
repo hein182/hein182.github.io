@@ -13,8 +13,7 @@ $(document).ready(function() {
     var counttotal = 2;
     var retake = 0;
     var scorenumber = ["you didnt do shit dumb rass", "good rob 100% A+", "u need to learn 0% F-", "u suck 50% F-"];
-    if(retake == 1){
-      $(sumtingwong).click(function () {
+/*     $(sumtingwong).click(function () {
           alert("u suck maddafakka")
           negativecount--;
           if(negativecount<-1){
@@ -33,7 +32,7 @@ $(document).ready(function() {
             count2++;
         }
     });
-}
+*/
   $(".sumtingwong").click(function () {
       if (rando == 21) {
           audioElement.play();
